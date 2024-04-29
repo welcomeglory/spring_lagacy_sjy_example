@@ -49,6 +49,7 @@ public class HomeController {
 	
 	@GetMapping("/empList")
 	public String empList() {
+		
 		return "empList";
 	}
 	
