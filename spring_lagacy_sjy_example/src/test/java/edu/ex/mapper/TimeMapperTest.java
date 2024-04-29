@@ -22,9 +22,5 @@ public class TimeMapperTest {
 		System.out.println(timeMapper.getTime());
 	}
 	
-	@Test
-	public void testGetEmp() {
-		System.out.println(timeMapper.getEmp("SMITH"));
-	}
 
 }
