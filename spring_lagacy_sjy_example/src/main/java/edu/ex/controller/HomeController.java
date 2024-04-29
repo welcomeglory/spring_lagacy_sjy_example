@@ -45,12 +45,6 @@ public class HomeController {
 	@GetMapping("/index")
 	public String index() {
 		return "index";
-	}
-	
-	@GetMapping("/empList")
-	public String empList() {
-		
-		return "empList";
-	}
+	}	
 	
 }
