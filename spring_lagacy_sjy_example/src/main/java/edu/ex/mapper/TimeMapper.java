@@ -11,6 +11,4 @@ public interface TimeMapper {
 	
 	//public String getTime2();
 	
-	@Select("select * from emp where ename=#{ename}")
-	EmpVO getEmp(String ename);
 }
