@@ -26,10 +26,13 @@
 	<!-- 마이바티스 -->
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource"></property>
+		 <property name="mapperLocations" value="classpath:/mappers/**/*.xml" /> 
 	</bean>
 	<!-- mapper 인터페이스 위치 -->
 	<mybatis-spring:scan base-package="edu.ex.mapper"/>
 	
-	<context:component-scan base-package="edu.ex.sample"></context:component-scan>
+	<context:component-scan base-package="edu.ex.*"/>
 		
+<!-- 	<context:component-scan base-package="edu.ex.sample"></context:component-scan>
+ -->		
 </beans>
