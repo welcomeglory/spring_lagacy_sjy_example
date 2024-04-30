@@ -20,5 +20,9 @@ public class TimeMapperTest {
 	public void testGetTime2() {
 		System.out.println(timeMapper.getTime());
 	}
+	@Test
+	public void testGetTime3() {
+		System.out.println(timeMapper.getTime2());
+	}
 
 }
